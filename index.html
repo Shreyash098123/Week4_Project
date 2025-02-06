@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="logo">WeatherDash</div>
+    <ul class="nav-links">
+      <li><a href="#current-weather">Current Weather</a></li>
+      <li><a href="#forecast">Forecast</a></li>
+      <li><a href="#" id="location-btn">Get My Location</a></li>
+    </ul>
+  </nav>
+
+  <!-- Current Weather Section -->
+  <section id="current-weather" class="section">
+    <h2>Current Weather</h2>
+    <div id="current-weather-content">
+      <p>Loading current weather data...</p>
+    </div>
+  </section>
+
+  <!-- Forecast Section -->
+  <section id="forecast" class="section">
+    <h2>5-Day Forecast</h2>
+    <div id="forecast-content">
+      <p>Loading forecast data...</p>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
